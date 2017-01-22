@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+/* line 3, ../../scss/index.scss */
+html, body {
+  height: 100%;
+  margin: 0px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #222;
+}
+
+/* line 11, ../../scss/index.scss */
+#nav-menu {
+  width: 100%;
+  height: 95px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+/* line 19, ../../scss/index.scss */
+#tabs-container {
+  float: right;
+  width: 90%;
+}
+
+/* line 23, ../../scss/index.scss */
+#tabs {
+  float: right;
+  width: 85%;
+  margin: auto;
+  color: #2c2d30;
+}
+
+/* line 29, ../../scss/index.scss */
+#tabs h2 {
+  display: inline-block;
+  margin-right: 5%;
+  padding: 5px;
+  border: 5px solid;
+  -webkit-transition: background-color .67s;
+  -moz-transition: background-color .67s;
+  -o-transition: background-color .67s;
+  transition: background-color .67s;
+}
+
+/* line 39, ../../scss/index.scss */
+#tabs h2:hover {
+  background-color: #00a651;
+}
+
+/* line 42, ../../scss/index.scss */
+#header {
+  height: 572px;
+  background: url(http://i.imgur.com/DZOltpA.jpg) center top no-repeat;
+  filter: grayscale(100%);
+}
+
+/* line 47, ../../scss/index.scss */
+#me {
+  border-radius: 50%;
+}
+
+/* line 50, ../../scss/index.scss */
+#name, #developer {
+  color: white;
+  margin: 0px 0px 0px 0px;
+  padding-top: 10%;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* line 57, ../../scss/index.scss */
+.section {
+  padding-top: 5%;
+  width: 100%;
+}
+
+/* line 61, ../../scss/index.scss */
+.section p, .section h2, .section h3, .section h4 {
+  width: 80%;
+  margin: 15px auto;
+  line-height: 125%;
+}
+
+/* line 66, ../../scss/index.scss */
+#projects {
+  width: 85%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* line 71, ../../scss/index.scss */
+.project {
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0px 0px 25px #000000;
+  height: 422px;
+}
+
+/* line 77, ../../scss/index.scss */
+.project img {
+  width: 750px;
+  margin: auto;
+}
+
+/* line 81, ../../scss/index.scss */
+.project h4 {
+  margin-top: -45px;
+  text-align: left;
+  color: white;
+}
+
+/* line 86, ../../scss/index.scss */
+.project a {
+  text-decoration: none;
+}
+
+/* line 89, ../../scss/index.scss */
+#experience-section p {
+  margin-left: 15%;
+}
+
+/* line 92, ../../scss/index.scss */
+#experience-section h2 {
+  margin-bottom: 0px;
+}
+
+/* line 95, ../../scss/index.scss */
+#experience-section h4 {
+  margin-top: 5px;
+}
+
+/* line 98, ../../scss/index.scss */
+.title {
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+  color: #00a651;
+  width: 90%;
+  text-decoration: none;
+  border-bottom: 2px solid #bdb;
+}
+
+/* line 107, ../../scss/index.scss */
+#about-section {
+  height: 400px;
+}
+
+/* line 110, ../../scss/index.scss */
+.bullet {
+  display: list-item;
+}
+
+/* line 113, ../../scss/index.scss */
+#projects-section {
+  background-color: #2c2d30;
+  height: 1100px;
+}
+
+/* line 117, ../../scss/index.scss */
+#experience-section {
+  height: 600px;
+}
+
+/* line 120, ../../scss/index.scss */
+#contact-section {
+  background-color: #2c2d30;
+  height: 350px;
+}
+
+/* line 124, ../../scss/index.scss */
+#my-icon {
+  width: 85px;
+  margin: 5px 0px 0px 5px;
+}
+
+/* line 128, ../../scss/index.scss */
+#menu-icon {
+  width: 85px;
+  margin: 5px 0px 0px 5px;
+  float: right;
+}
+
+/* line 133, ../../scss/index.scss */
+#icons {
+  margin: 15px auto;
+  width: 85%;
+  text-align: center;
+}
+
+/* line 138, ../../scss/index.scss */
+#icons a img {
+  width: 160px;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 144, ../../scss/index.scss */
+  #menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  /* line 149, ../../scss/index.scss */
+  #name {
+    padding-top: 20%;
+  }
+
+  /* line 152, ../../scss/index.scss */
+  #tabs-container {
+    width: 87%;
+  }
+
+  /* line 155, ../../scss/index.scss */
+  #tabs {
+    width: 88%;
+  }
+
+  /* line 158, ../../scss/index.scss */
+  #tabs h2 {
+    margin-right: 1%;
+  }
+
+  /* line 161, ../../scss/index.scss */
+  #projects-section {
+    height: 550px;
+  }
+
+  /* line 164, ../../scss/index.scss */
+  .project {
+    width: 300px;
+    height: 168.75px;
+  }
+
+  /* line 168, ../../scss/index.scss */
+  .project img {
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 173, ../../scss/index.scss */
+  #tabs-container {
+    background-color: white;
+    width: 100%;
+  }
+
+  /* line 177, ../../scss/index.scss */
+  #tabs {
+    display: none;
+  }
+
+  /* line 180, ../../scss/index.scss */
+  #tabs h2 {
+    display: block;
+  }
+
+  /* line 183, ../../scss/index.scss */
+  #menu-icon {
+    display: inline-block;
+  }
+
+  /* line 186, ../../scss/index.scss */
+  #icons a img {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 500px) and (max-device-width: 736px) {
+  /* line 193, ../../scss/index.scss */
+  #name {
+    padding-top: 30%;
+  }
+
+  /* line 196, ../../scss/index.scss */
+  #my-icon {
+    width: 65px;
+  }
+
+  /* line 199, ../../scss/index.scss */
+  #menu-icon {
+    width: 65px;
+  }
+
+  /* line 202, ../../scss/index.scss */
+  #nav-menu {
+    height: 75px;
+  }
+
+  /* line 205, ../../scss/index.scss */
+  #projects-section {
+    height: 900px;
+  }
+
+  /* line 208, ../../scss/index.scss */
+  #experience-section {
+    height: 750px;
+  }
+
+  /* line 211, ../../scss/index.scss */
+  #contact-section {
+    height: 250px;
+  }
+
+  /* line 214, ../../scss/index.scss */
+  #icons a img {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 350px) {
+  /* line 219, ../../scss/index.scss */
+  .title {
+    font-size: 52px;
+  }
+}
